@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: scikit-learn-pipeline-utils
-Version: 0.0.5
+Version: 0.0.7
 Summary: Custom Pipeline Transformers for Sklearn Pipelines
 Home-page: https://github.com/deltahedge1/scikit-learn-pipeline-utils
 Author: Ish Hassan
