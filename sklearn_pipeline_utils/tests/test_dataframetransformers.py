@@ -8,6 +8,9 @@ df = pd.DataFrame({
 })
 
 def test_dfselector():
+    
+    df_col1 = pd.DataFrame(df['col1'], index=df.index)
+    
     pipeline = Pipeline([
         ('dfselectcol1', DFSelector('col1'))
     ])
@@ -20,5 +23,5 @@ def test_dfselector():
 
     expected_result2 = pipeline2.transform(df)
 
-    assert (df['col1'].equals(expected_result))
+    assert (df_col1.equals(expected_result))
     assert (df.equals(expected_result2))

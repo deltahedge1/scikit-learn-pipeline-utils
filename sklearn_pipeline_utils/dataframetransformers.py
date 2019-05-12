@@ -12,7 +12,10 @@ class DFSelector(BaseEstimator, TransformerMixin):
         return self
     
     def transform(self, X):
-        return X[self.attribute_names]
+        if type(self.attribute_names) != list:
+            return pd.DataFrame(X[self.attribute_names], index=X.index)
+        else:
+            return X[self.attribute_names]
 
 class DFObjectSelector(BaseEstimator, TransformerMixin):
     def __init__(self, _type):
