@@ -20,10 +20,11 @@ pipeline = Pipeline([
 
 print(pipeline.transform(df))
 '''
-expected result
-[['a']
- ['b']
- ['a']]
+expected result:
+  col1
+0    a
+1    b
+2    a
 '''
 ```
 
