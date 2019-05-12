@@ -1,9 +1,9 @@
 # Helpful package for custom transformers to use in sklearn pipelines
 
-## installation
+## Installation
 `pip install -i https://test.pypi.org/simple/ scikit-learn-pipeline-utils`
 
-## quick start
+## Quick Start
 ```
 from sklearn_pipeline_utils import DFSelector
 from sklearn.pipeline import Pipeline
