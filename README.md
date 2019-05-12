@@ -1,7 +1,7 @@
 # Helpful Package For Custom Transformers To Use In Sklearn Pipelines
 
 ## Installation
-`pip install -i https://test.pypi.org/simple/ scikit-learn-pipeline-utils`
+`pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple scikit-learn-pipeline-utils`
 
 ## Quick Start
 ```
