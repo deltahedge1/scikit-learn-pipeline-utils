@@ -19,6 +19,12 @@ pipeline = Pipeline([
     ])
 
 print(pipeline.transform(df))
+'''
+expected result
+[['a']
+ ['b']
+ ['a']]
+'''
 ```
 
 ## Dataframe Transformers List

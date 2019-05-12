@@ -12,7 +12,7 @@ class DFSelector(BaseEstimator, TransformerMixin):
         return self
     
     def transform(self, X):
-        return X[self.attribute_names].values.reshape(-1,1)
+        return X[self.attribute_names]
 
 class DFObjectSelector(BaseEstimator, TransformerMixin):
     def __init__(self, _type):
