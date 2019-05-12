@@ -1,4 +1,4 @@
-# Helpful package for custom transformers to use in sklearn pipelines
+# Helpful Package For Custom Transformers To Use In Sklearn Pipelines
 
 ## Installation
 `pip install -i https://test.pypi.org/simple/ scikit-learn-pipeline-utils`
