@@ -4,7 +4,7 @@ from sklearn.preprocessing import StandardScaler, MinMaxScaler
 from sklearn.impute import SimpleImputer
 import pandas as pd
 
-class DataFrameSelector(BaseEstimator, TransformerMixin):
+class DFSelector(BaseEstimator, TransformerMixin):
     def __init__(self, attribute_names):
         self.attribute_names = attribute_names
     
