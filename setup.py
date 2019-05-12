@@ -27,4 +27,5 @@ setup(
     packages=["sklearn_pipeline_utils"],
     include_package_data=True,
     install_requires=["scikit_learn", "pandas"],
+    data_files = [("", ["LICENSE"])]
 )
