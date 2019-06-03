@@ -1,4 +1,4 @@
-LICENSE
+LICENSE.txt
 README.md
 setup.py
 scikit_learn_pipeline_utils.egg-info/PKG-INFO
