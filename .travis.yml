@@ -8,5 +8,6 @@ install:
   - pip install pipenv
   - pipenv install
   - pipenv install --dev
+  - pipenv install .
 script:
   - pipenv run python -m pytest

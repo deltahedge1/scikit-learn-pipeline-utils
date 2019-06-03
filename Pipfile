@@ -10,6 +10,7 @@ twine = "*"
 [packages]
 scikit-learn = "*"
 pandas = "*"
+scikit-learn-pipeline-utils = {path = "."}
 
 [requires]
 python_version = "3.7"

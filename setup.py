@@ -28,6 +28,5 @@ setup(
     package_data={"": ["LICENSE.txt"]},
     data_files = [("", ["LICENSE.txt"])],
     include_package_data=True,
-    include_data_files=True,
     install_requires=["scikit_learn", "pandas"],
 )
